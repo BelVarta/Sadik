@@ -876,7 +876,7 @@ body.active{
 }
 .dawn_backgraund {
   background: url(img/dawnBackgraund.png) no-repeat;
-  height: 765px;
+  
 }
 }
 @media (max-width: 685px){
@@ -1040,7 +1040,7 @@ body.active{
 }
 .dawn_backgraund {
   background: url(img/dawnBackgraund.png) no-repeat;
-  height: 910px;
+  
 }
 .footer p {
   font-family: "Conv_MyriadPro-Regular";
