@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+	font-family: 'Conv_MyriadPro-Regular';
+	src: url('fonts/MyriadPro-Regular.eot');
+	src: local('☺'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_MyriadPro-Bold';
+	src: url('fonts/MyriadPro-Bold.eot');
+	src: local('☺'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype'), url('fonts/MyriadPro-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_proximanovacond-regular';
+	src: url('fonts/proximanovacond-regular.eot');
+	src: local('☺'), url('fonts/proximanovacond-regular.woff') format('woff'), url('fonts/proximanovacond-regular.ttf') format('truetype'), url('fonts/proximanovacond-regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_proximanova-bold';
+	src: url('fonts/proximanova-bold.eot');
+	src: local('☺'), url('fonts/proximanova-bold.woff') format('woff'), url('fonts/proximanova-bold.ttf') format('truetype'), url('fonts/proximanova-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+};
+.header{
+   
+    margin-top: 56px;
+    display: flex;
+    width: 1155px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+
+    h1{
+        color: #6699ff;
+        font-weight:bold;
+        margin-right: 86px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+   
+    }
+        
+    p{
+        text-align: center;
+        font-family: 'Conv_MyriadPro-Regular';
+        
+       
+    
+        &:first-of-type{
+            
+            width: 276px;
+            margin-right: 86px;
+	
+        };
+
+        &:last-of-type{
+            font-family: 'Conv_proximanova-bold';
+           
+            margin-left: 70px;
+	
+        }
+    }
+}
+
+
+ 
+
+
+
+
+
+.first_block{
+max-width: 1140px;
+height:650px;
+background-image: url(img/children.png) ;
+background-repeat:no-repeat;
+background-position: 400px;
+display: flex;
+align-items: center;
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+    h1{
+        font-size: 60px;
+        color: #6699ff;
+        
+    }
+    p{
+        font-family: 'Conv_MyriadPro-Regular';
+        padding: 50px 0;
+        color: #333333;
+        width: 284px;
+        line-height: 22px;
+    }
+   
+    a{
+        display: inline;
+        text-align: center;
+        text-decoration: none;
+        padding: 30px 75px;
+        
+        border-radius:40px;
+        background: linear-gradient(180deg, #ffcc33, #ff9900);
+        color: #ffffff;
+
+
+        &:hover{
+            transition: 0.3s;
+            padding: 30px 90px;
+        }
+    }
+}
+
+
+
+
+.container{
+    display: flex;
+    
+    div{
+        width: 140px;
+        margin-right: 75px;
+        &:first-child{
+        margin-left:180px ;
+    }
+    img{
+        display: block;
+        margin:0 auto;
+    }
+    h3{
+        padding-top:30px ;
+       text-align: center;
+       font-family: 'Conv_MyriadPro-Bold';
+    }
+
+    }
+   
+}
+.title{
+    h1{
+        text-align: center;
+        font-family: 'Conv_MyriadPro-Bold';  
+        font-size: 30px;
+        padding-bottom: 80px;
+    }
+}
+
+
+
+
+.backgrauond{
+    margin-top: 152px;
+    width: 100%;
+    height: 892px;
+    background-image: url(img/backgraund.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.title_second{
+    font-family: 'Conv_MyriadPro-Bold'; 
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 30px;
+}
+.circle-image{
+    display:block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 63px; ;
+  }
+  .circle-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+  .box{
+      display: flex;
+
+      div{
+          width: 361px;
+          height: 463px;
+          background: #ffffff;
+          margin-right: 30px;
+
+        h3{
+            text-align: center;
+            padding-top: 35px;
+            padding-bottom: 25px;
+            color: #99ccff;
+            font-family: 'Conv_MyriadPro-Regular';
+        }
+
+        p{
+            text-align: center;
+            font-family: 'Conv_MyriadPro-Regular'; 
+        }
+      }
+  }
+
+
+
+
+  .title_tirty{
+    padding-top: 20px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: 'Conv_MyriadPro-Bold'; 
+    font-size: 30px;
+  }
+
+  .content{   
+      width: 100%;
+      height: 670px;
+    display: flex;
+    justify-content: space-between;
+ 
+    background: url(img/happychild.png) no-repeat;
+    background-position: center;
+
+  }
+  .content_one{
+     div{
+         margin-bottom:50px ;
+         display: flex;
+         width: 350px;
+         height: 110px;
+         flex-direction: column;
+         align-items: center;
+         background-color: #ccffff;
+         margin-left: 20px;
+         margin-top: 25px;
+         border-radius: 15px;
+     
+        img{
+            width: 35px;
+            height: 35px;
+            margin-top: -15px;
+        }
+        
+        p{
+            margin-top: 30px;
+            font-family: 'Conv_MyriadPro-Regular';
+            font-size: 20px;
+  }
+  }
+ } 
+
+ .content_two{
+    div{
+        margin-bottom:50px ;
+        display: flex;
+        width: 350px;
+        height: 110px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ccffff;;
+        margin-right: 20px;
+        margin-top: 25px;
+        border-radius: 15px;
+    
+       img{
+           width: 35px;
+           height: 35px;
+           margin-top: -15px;
+       }
+       
+       p{
+        font-family: 'Conv_MyriadPro-Regular';
+        margin-top: 30px;
+       text-align: center;
+       font-size: 20px;
+ }
+} 
+ }
+
+
+
+ 
+  
+  
+ 
+
+
+
+
+
+
+
