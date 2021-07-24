@@ -1040,6 +1040,7 @@ body.active{
 }
 .dawn_backgraund {
   background: url(img/dawnBackgraund.png) no-repeat;
+  background-size: cover;
   
 }
 .footer p {
