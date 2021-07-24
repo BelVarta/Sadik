@@ -394,11 +394,10 @@
 align-items: center;
 display: flex;
 justify-content: center;
-margin-bottom: 150px;
+padding-bottom: 150px;
 }
 .dawn_backgraund{
   background: url(img/dawnBackgraund.png) no-repeat;
-  height:900px;
 }
 .dawn_backgraund h1{
   padding-bottom:97px;
