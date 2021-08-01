@@ -164,18 +164,17 @@
     margin-top: 70px;
   }
 
-  .box div:nth-child(4) span{
+.box div:nth-child(4) span {
     background-image: url(img/childrendawn.png);
     background-repeat: no-repeat;
-    background-position: top 5px right -61px;
+    background-position: top 0px right -59px;
     width: 160px;
     height: 169px;
     display: block;
     border-radius: 50%;
-  
-    margin:  0 auto;
-      margin-top: 70px;
-  }
+    margin: 0 auto;
+    margin-top: 70px;
+}
   footer{
     height:180px ;
     width: 100%;
