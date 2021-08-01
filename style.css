@@ -248,7 +248,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url(img/happychild.png) no-repeat;
+  background: transparent;
   background-position: center;
 }
 
@@ -775,7 +775,7 @@ body.active{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background: url(img/happychild.png) no-repeat;
+    background:transparent;
     background-position: center;
     flex-direction: column;
     justify-content: center;
