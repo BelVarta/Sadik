@@ -248,7 +248,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: transparent;
+   background: url(img/happychild.png) no-repeat;
   background-position: center;
 }
 
